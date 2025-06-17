@@ -60,6 +60,10 @@ repos:
 pre-commit install
 ```
 
+> [!NOTE]
+> hook 이 추가 및 변경되는 경우만 다시 실행해야 합니다.  
+> hook 을 아에 사용하지 않는 경우, `pre-commit uninstall` 을 실행해야 합니다.
+
 Test:
 
 ```bash
